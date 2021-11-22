@@ -1,0 +1,9 @@
+server:
+  port: 9999
+spring:
+  application:
+    name: SHOPPING-SERVICES
+  cloud:
+    config:
+      uri:
+      - http://localhost:8882/
